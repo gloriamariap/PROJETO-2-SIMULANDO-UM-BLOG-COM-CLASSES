@@ -6,7 +6,7 @@ class Author {
       this.post = []
     }
 
-    createpost(title, content) {
+    createPost(title, content) {
         const post = new Post(title, content, this)
         this.post.push(post)
         return post 
